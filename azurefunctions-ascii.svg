@@ -7,22 +7,64 @@
     .lightning1 { font: 0.9em Consolas; font-weight: bold; fill:#FBF500; }
     .lightning2 { font: 0.9em Consolas; fill:#797C00; }
     .bracket { font: 0.9em Consolas; font-weight: bold;fill:#007F7E; }
+    .flash_1 {
+      	animation-name: flash_light1;
+	      animation-duration: 0.2s;
+	      animation-iteration-count: 7;
+	      animation-direction: backward;
+    }
+    .flash_2 {
+      	animation-name: flash_light2;
+	      animation-duration: 0.35s;
+	      animation-iteration-count: 4;
+	      animation-direction: backward;
+    }
+    @-o-keyframes flash_light1 {
+	    from { fill: #FBF500; }
+	    to { fill: #797C00; }
+    }
+    @-webkit-keyframes flash_light1 {
+	    from { fill: #FBF500; }
+	    to { fill: #797C00; }
+    }
+    @-moz-keyframes flash_light1 {
+	    from { fill: #FBF500; }
+	    to { fill: #797C00; }
+    }
+    @-ms-keyframes color_change flash_light1 {
+	    from { fill: #FBF500; }
+	    to { fill: #797C00; }
+    }
+    @keyframes flash_light1 {
+	    from { fill: #FBF500; }
+	    to { fill: #797C00; }
+    }
+    @-webkit-keyframes flash_light2 {
+	    from { fill: #797C00; }
+	    to { fill: #494C00; }
+    }
+
+    @keyframes flash_light2 {
+	    from { fill: #797C00; }
+	    to { fill: #494C00; }
+    }
+
     .rect { fill: #000; opacity:1;}
   </style>
   <!-- lightning -->
   <g transform='matrix(2,0,0,2,0,0)'>
   <rect width="720" height="500" class="rect" />
-  <text ><tspan x="11em" y="2em" class="lightning1">%%%</tspan><tspan class="lightning2">%%%</tspan></text>
-  <text ><tspan x="10.5em" y="3em" class="lightning1">%%%</tspan><tspan class="lightning2">%%%</tspan></text>
-  <text ><tspan x="7em" y="4em" class="bracket">@</tspan><tspan x="10em" class="lightning1">%%%</tspan><tspan class="lightning2">%%%</tspan><tspan x="15em" class="bracket">@</tspan></text>
-  <text ><tspan x="6em" y="5em" class="bracket">@@</tspan><tspan x="9.5em" class="lightning1">%%%</tspan><tspan class="lightning2">%%%</tspan><tspan x="15.5em" class="bracket">@@</tspan></text>
-  <text ><tspan x="4.5em" y="6em" class="bracket">@@@</tspan><tspan x="9em" class="lightning1">%%%</tspan><tspan class="lightning2">%%%</tspan><tspan x="16.5em" class="bracket">@@@</tspan></text>
-  <text ><tspan x="3.5em" y="7em" class="bracket">@@</tspan><tspan x="8.5em" class="lightning1">%%%</tspan><tspan class="lightning2">%%%%%%%%</tspan><tspan x="18em" class="bracket">@@</tspan></text>
-  <text ><tspan x="4.5em" y="8em" class="bracket">@@</tspan><tspan x="8em" class="lightning1">%%%%%%%</tspan><tspan class="lightning2">%%%</tspan><tspan x="17em" class="bracket">@@</tspan></text>
-  <text ><tspan x="5.5em" y="9em" class="bracket">@@</tspan><tspan x="10.5em" class="lightning1">%</tspan><tspan class="lightning2">%%%</tspan><tspan x="16em" class="bracket">@@</tspan></text>
-  <text ><tspan x="6.5em" y="10em" class="bracket">@@</tspan><tspan x="10em" class="lightning1">%</tspan><tspan class="lightning2">%%</tspan><tspan x="15em" class="bracket">@@</tspan></text>
-  <text ><tspan x="10em" y="11em" class="lightning1">%</tspan><tspan class="lightning2">%</tspan></text>
-  <text ><tspan x="9.5em" y="12em" class="lightning1">%</tspan><tspan class="lightning2">%</tspan></text>
-  <text ><tspan x="9.5em" y="13em" class="lightning1">%</tspan></text>
+  <text ><tspan x="11em" y="2em" class="lightning1 flash_1">%%%</tspan><tspan class="lightning2 flash_2">%%%</tspan></text>
+  <text ><tspan x="10.5em" y="3em" class="lightning1 flash_1">%%%</tspan><tspan class="lightning2 flash_2">%%%</tspan></text>
+  <text ><tspan x="7em" y="4em" class="bracket">@</tspan><tspan x="10em" class="lightning1 flash_1">%%%</tspan><tspan class="lightning2 flash_2">%%%</tspan><tspan x="15em" class="bracket">@</tspan></text>
+  <text ><tspan x="6em" y="5em" class="bracket">@@</tspan><tspan x="9.5em" class="lightning1 flash_1 ">%%%</tspan><tspan class="lightning2 flash_2">%%%</tspan><tspan x="15.5em" class="bracket">@@</tspan></text>
+  <text ><tspan x="4.5em" y="6em" class="bracket">@@@</tspan><tspan x="9em" class="lightning1 flash_1">%%%</tspan><tspan class="lightning2 flash_2">%%%</tspan><tspan x="16.5em" class="bracket">@@@</tspan></text>
+  <text ><tspan x="3.5em" y="7em" class="bracket">@@</tspan><tspan x="8.5em" class="lightning1 flash_1">%%%</tspan><tspan class="lightning2 flash_2">%%%%%%%%</tspan><tspan x="18em" class="bracket">@@</tspan></text>
+  <text ><tspan x="4.5em" y="8em" class="bracket">@@</tspan><tspan x="8em" class="lightning1 flash_1">%%%%%%%</tspan><tspan class="lightning2 flash_2">%%%</tspan><tspan x="17em" class="bracket">@@</tspan></text>
+  <text ><tspan x="5.5em" y="9em" class="bracket">@@</tspan><tspan x="10.5em" class="lightning1 flash_1">%</tspan><tspan class="lightning2 flash_2">%%%</tspan><tspan x="16em" class="bracket">@@</tspan></text>
+  <text ><tspan x="6.5em" y="10em" class="bracket">@@</tspan><tspan x="10em" class="lightning1 flash_1">%</tspan><tspan class="lightning2 flash_2">%%</tspan><tspan x="15em" class="bracket">@@</tspan></text>
+  <text ><tspan x="10em" y="11em" class="lightning1 flash_1">%</tspan><tspan class="lightning2 flash_2">%</tspan></text>
+  <text ><tspan x="9.5em" y="12em" class="lightning1 flash_1">%</tspan><tspan class="lightning2 flash_2">%</tspan></text>
+  <text ><tspan x="9.5em" y="13em" class="lightning1 flash_1">%</tspan></text>
 </g>
 </svg>
