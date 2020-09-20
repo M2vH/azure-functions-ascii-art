@@ -21,8 +21,8 @@
   <text ><tspan x="4.5em" y="8em" class="bracket">@@</tspan><tspan x="8em" class="lightning1">%%%%%%%</tspan><tspan class="lightning2">%%%</tspan><tspan x="17em" class="bracket">@@</tspan></text>
   <text ><tspan x="5.5em" y="9em" class="bracket">@@</tspan><tspan x="10.5em" class="lightning1">%</tspan><tspan class="lightning2">%%%</tspan><tspan x="16em" class="bracket">@@</tspan></text>
   <text ><tspan x="6.5em" y="10em" class="bracket">@@</tspan><tspan x="10em" class="lightning1">%</tspan><tspan class="lightning2">%%</tspan><tspan x="15em" class="bracket">@@</tspan></text>
-  <text ><tspan x="9.5em" y="11em" class="lightning1">%</tspan><tspan class="lightning2">%</tspan></text>
+  <text ><tspan x="10em" y="11em" class="lightning1">%</tspan><tspan class="lightning2">%</tspan></text>
   <text ><tspan x="9.5em" y="12em" class="lightning1">%</tspan><tspan class="lightning2">%</tspan></text>
-  <text ><tspan x="9em" y="13em" class="lightning1">%</tspan></text>
+  <text ><tspan x="9.5em" y="13em" class="lightning1">%</tspan></text>
 </g>
 </svg>
